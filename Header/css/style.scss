@@ -76,8 +76,6 @@ body {
                     display: none;
                     position: absolute;
                     border-radius: 5px;
-                    top: 50px;
-                    left: 50px;
                     background-color:darkblue;
                     z-index: 2023;
                     list-style: none;
@@ -422,6 +420,10 @@ body {
     .menu {
         display: none;
     }
+    ul.clrs {
+        top: 50px;
+        left: 50px;
+    }
     .title {
         font-size: 34px;
     }
@@ -453,6 +455,10 @@ body {
     
     .title {
         font-size: 28px;
+    }
+    ul.clrs {
+        top: 50px;
+        left: 0;
     }
     .aside {
         display: none;
@@ -530,6 +536,10 @@ body {
     
     .title {
         font-size: 24px;
+    }
+    ul.clrs {
+        top: 50px;
+        left: -50px;
     }
     .aside {
         display: none;
@@ -612,6 +622,10 @@ body {
     
     .title {
         font-size: 16px;
+    }
+    ul.clrs {
+        top: 50px;
+        left: -80px;
     }
     .aside {
         display: none;
